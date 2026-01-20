@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <label for="username">Username:</label><br />
+      <input
+        type="text"
+        placeholder="Username"
+        required
+        name="Username"
+      /><br />
+      <label for="email">Email:</label><br />
+      <input type="email" placeholder="Email" required /><br />
+      <label for="password">Password:</label><br />
+      <input type="password" placeholder="Password" required /><br />
+
+      <hr />
+      <hr />
+      <p>select your gender</p>
+      <input type="radio" id="gender1" name="gender" value="male" />
+      <label for="gender1"> Male</label>
+      <br />
+      <input type="radio" id="gender2" name="gender" value="female" />
+      <label for="gender2"> Female</label>
+      <br />
+      <input type="radio" id="gender3" name="gender" value="other" />
+      <label for="gender3"> Other</label>
+
+      <hr />
+      <hr />
+      <p>Select your favorite dishes</p>
+      <input type="checkbox" id="vehicle1" name="Dish" value="vadapav" />
+      <label for="vehicle1"> I love vadapav</label><br />
+      <input type="checkbox" id="vehicle2" name="Dish" value="Pizza" />
+      <label for="vehicle2"> I love pizza</label><br />
+      <input type="checkbox" id="vehicle3" name="Dish" value="sushi" />
+      <label for="vehicle3"> I love sushi</label><br /><br />
+      <hr />
+      <hr />
+      <label for="birthday">Select your birth date:</label><br />
+      <input type="date" id="birthday" name="birthday" /><br /><br />
+      <hr />
+      <form>
+        <input type="file" name="fileUpload" />
+      </form>
+      <hr />
+      <textarea rows="4" cols="30">Comments:</textarea><br /><br />
+      <hr />
+      <form>
+      <label for="task">New Task:</label>
+      <input type="text" id="task" name="task" required />
+      <button type="submit">Add Task</button>
+    </form><br /><hr />
+      <label for="anime">Choose your favorite anime:</label><br />
+      <select name="anime" id="anime">
+        <option value="jujustu kaisen">Jujutsu Kaisen</option>
+        <option value="Attack on Titan">Attack on Titan</option>
+        <option value="Death Note">Death Note</option>
+        <option value="Demon Slayer">Demon Slayer</option></select
+      ><br /><br />
+      <hr />
+      <p>Forgot Password?</p>
+      <button type="submit">Sign In</button>
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>
+
+<!----input types
+text
+email
+password 
+checkbox
+radio
+button
+textarea
+select
+dropdown
+color
+date 
+time
+datetime-local
+file 
+hidden
+<input type="hidden" name="city" value="New York" />
+image
+month
+number
+range
+search
+tel
+url
+week
+--->
