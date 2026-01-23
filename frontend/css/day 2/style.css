@@ -1,12 +1,60 @@
-*{
-    color:red;
+/* =========================
+   1) Universal Selector
+   Applies to ALL elements
+========================= */
+* {
+  font-family: Arial, sans-serif;
 }
-p{
-    color:blue;
+
+/* =========================
+   2) Type / Tag Selector
+   Applies to all <p> tags
+========================= */
+p {
+  color: darkslategray;
 }
-.para{
-    color:green;
+
+/* =========================
+   3) Class Selector
+   Applies to elements with class="para"
+========================= */
+.para {
+  color: green;
+  font-size: 18px;
 }
-#para{
-    color:yellow;
+
+/* =========================
+   4) ID Selector
+   Applies to element with id="para"
+   (id has higher priority than class)
+========================= */
+#para {
+  color: red;
+  font-weight: bold;
+}
+
+/* =========================
+   5) Grouping Selector
+   Same style for h1 and p
+========================= */
+h1, p {
+  margin-left: 10px;
+}
+
+/* =========================
+   6) Descendant Selector
+   p inside div only
+========================= */
+div p {
+  background-color: #f0f0f0;
+  padding: 8px;
+}
+
+/* =========================
+   7) Chaining Selector
+   Element having BOTH div1 and div2
+========================= */
+.div1.div2 {
+  border: 2px solid blue;
+  padding: 10px;
 }
