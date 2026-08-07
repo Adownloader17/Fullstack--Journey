@@ -1,4 +1,4 @@
-# 🚀 Fullstack Journey
+# 🚀 Fullstack Journey.
 
 A personal learning repository documenting my step‑by‑step progress toward becoming a full‑stack developer.
 
